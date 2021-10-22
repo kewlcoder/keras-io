@@ -197,7 +197,7 @@ labels into a [`tf.data.Dataset`](https://www.tensorflow.org/guide/datasets) for
 training and evaluation.
 """
 
-from tensorflow.keras.layers.experimental.preprocessing import StringLookup
+from tensorflow.keras.layers import StringLookup
 
 
 def process(features, target):
@@ -255,9 +255,6 @@ we apply linear transformation using `layers.Dense` to project each feature into
 same dimensionality.
 
 """
-
-from tensorflow.keras.layers.experimental.preprocessing import CategoryEncoding
-from tensorflow.keras.layers.experimental.preprocessing import StringLookup
 
 
 def encode_inputs(inputs, encoding_size):
