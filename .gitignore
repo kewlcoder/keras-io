@@ -3,6 +3,7 @@ sources/*
 site/*
 scripts/upload.py
 *.pyc
+*.swp
 templates/examples/generative/*
 templates/examples/nlp/*
 templates/examples/vision/*
@@ -15,4 +16,5 @@ templates/guides/*.md
 .ipynb_checkpoints/
 examples/vision/ipynb/annotations/
 examples/vision/ipynb/images/
-
+templates/examples/graph/*
+templates/keras-tuner/getting_started.md
