@@ -11,3 +11,8 @@ templates/examples/rl/*
 templates/examples/keras_recipes/*
 templates/examples/timeseries/*
 templates/guides/*.md
+*.tar.gz
+.ipynb_checkpoints/
+examples/vision/ipynb/annotations/
+examples/vision/ipynb/images/
+
