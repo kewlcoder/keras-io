@@ -18,3 +18,7 @@ examples/vision/ipynb/annotations/
 examples/vision/ipynb/images/
 templates/examples/graph/*
 templates/keras-tuner/getting_started.md
+*.png
+*.h5
+*.index
+*.data*
