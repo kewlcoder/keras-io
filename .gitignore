@@ -22,3 +22,7 @@ templates/keras-tuner/getting_started.md
 *.h5
 *.index
 *.data*
+*.pdf
+*.zip
+*.txt
+
